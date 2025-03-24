@@ -32,6 +32,7 @@ export const TodoList: React.FC<TodoListProps> = ({
 						</span>
 					</div>
 					<button
+						type="button"
 						onClick={() => onDelete(todo.id)}
 						className="px-2 py-1 text-red-600 hover:bg-red-100 rounded"
 					>

@@ -1,4 +1,4 @@
-import * as path from "path";
+import path from "node:path";
 import { BrowserWindow, app, ipcMain } from "electron";
 import type { Todo } from "../domain/entities/Todo";
 
